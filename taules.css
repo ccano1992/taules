@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(78, 78, 187);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3{
+    color: white;
+    text-align: center;
+}
+
+table {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+td, tr {
+    text-align: center; 
+    font-size: larger;
+    padding: 10px;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+tr.ancho {
+    height: 100px;
+    background-color: cyan;
+}
+
+.child tr:nth-child(2n+1) {
+    background-color: cyan;
+}
+
+.mp14 {
+    background-color: orange;
+}
+
+.mp07 {
+    background-color: yellow;
+}
+
+.mp04 {
+    background-color: cyan;
+}
+
+.mp06 {
+    background-color: green;
+}   
+
+.mp12 {
+    background-color: pink;
+}
+
+.mp10 {
+    background-color: red;
+}
+
+.mp08 {
+    background-color: blue;
+}
+
+.tdwhite {
+	background-color: white;
+}
